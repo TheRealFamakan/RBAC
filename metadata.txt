@@ -1,0 +1,40 @@
+Engineering Data: 
+
+- Documents FinSolve’s complete technical architecture and engineering processes.
+- Includes microservices, CI/CD pipelines, security models, and compliance (GDPR, DPDP, PCI-DSS).
+- Covers development standards, DevOps practices, monitoring, and future tech roadmap (AI, blockchain).
+- Owned by the Engineering Team; updated quarterly.
+- Access is restricted to Engineering Team and C-Level Executives due to high sensitivity.
+- Serves as a reference for audits, onboarding, scaling, and system maintenance.
+
+
+Finance Department Data
+
+- Documents FinSolve’s quarterly financial performance for the year 2024.
+- Includes revenue, income, gross margin, marketing spend, vendor costs, and cash flow data.
+- Provides detailed expense breakdowns and risk mitigation strategies for each quarter.
+- Owned by the Finance Team; updated quarterly.
+- Access is restricted to the Finance Team and C-Level Executives due to financial sensitivity.
+- Serves as a key reference for financial planning, audits, investor reporting, and strategic decisions.
+
+Employee Handbook
+
+- Comprehensive company policies covering onboarding & benefits, leave policies, work hours & attendance, code of conduct & workplace behavior, health & safety, compensation & payroll, reimbursement, training & development, performance & feedback, privacy & data security, exit procedures, FAQs, and miscellaneous guidelines.
+- Purpose: Serves as the authoritative guide for employees on company vision, values, HR processes, legal compliance, and workplace standards.
+- Ownership & Maintenance: Owned by the Human Resources Department; reviewed and updated annually or as regulations and company practices.
+- Usage: Key reference for new-hire orientation, policy clarifications, leave & attendance management, performance reviews, and exit procedures.
+
+HR Data
+
+- Documents HR’s employee dataset, covering 100 records with demographics, employment, compensation, leave, attendance, and performance fields.
+- Provides workforce composition insights, turnover tracking, leave utilization, and performance trend analysis.
+- Owned by the HR & People Analytics team; refreshed monthly to capture hires, exits, and updates.
+- Serves as a key reference for talent forecasting, compensation reviews, compliance reporting, and employee engagement initiatives.
+
+Marketing Department
+
+- Includes campaign overviews, spend allocations, customer acquisition targets, revenue projections, conversion and ROI benchmarks.
+- Provides detailed highlights on digital marketing, B2B initiatives, customer retention programs, and preliminary performance analysis.
+- Owned by the Marketing Team; refreshed quarterly.
+- Serves as a key reference for quarterly planning, budget allocation, performance reviews, and Q1 2025 strategy recommendations.
+
