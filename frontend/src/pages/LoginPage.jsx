@@ -13,12 +13,12 @@ import {
 import { ROLE_CONFIG } from '../constants/roles';
 
 const DEMO_ACCOUNTS = [
-  { username: 'tony_sharma',   password: 'tony123',    role: 'c_level',     name: 'Tony Sharma',   title: 'Chief Innovation Officer' },
-  { username: 'sarah_finance', password: 'finance123', role: 'finance',     name: 'Sarah Chen',    title: 'Chief Financial Officer' },
-  { username: 'mike_marketing',password: 'market123',  role: 'marketing',   name: 'Mike Johnson',  title: 'Marketing Director' },
-  { username: 'lisa_hr',       password: 'hr123',      role: 'hr',          name: 'Lisa Patel',    title: 'HR Manager' },
-  { username: 'dev_peter',     password: 'eng123',     role: 'engineering', name: 'Peter Pandey',  title: 'Lead AI Engineer' },
-  { username: 'emp_john',      password: 'emp123',     role: 'employee',    name: 'John Smith',    title: 'Operations Associate' },
+  { username: 'famakan_sharma',  password: 'tony123',    role: 'c_level',     name: 'Famakan Sharma',  title: 'Chief Innovation Officer' },
+  { username: 'famakan_chen',    password: 'finance123', role: 'finance',     name: 'Famakan Chen',    title: 'Chief Financial Officer' },
+  { username: 'famakan_johnson', password: 'market123',  role: 'marketing',   name: 'Famakan Johnson', title: 'Marketing Director' },
+  { username: 'famakan_patel',   password: 'hr123',      role: 'hr',          name: 'Famakan Patel',   title: 'HR Manager' },
+  { username: 'famakan_pandey',  password: 'eng123',     role: 'engineering', name: 'Famakan Pandey',  title: 'Lead AI Engineer' },
+  { username: 'famakan_smith',   password: 'emp123',     role: 'employee',    name: 'Famakan Smith',   title: 'Operations Associate' },
 ];
 
 export default function LoginPage() {
@@ -179,7 +179,7 @@ export default function LoginPage() {
                     type="text"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
-                    placeholder="e.g. tony_sharma"
+                    placeholder="e.g. famakan_sharma"
                     autoComplete="username"
                     disabled={loading}
                     className="w-full bg-slate-950/70 border border-slate-800 rounded-xl pl-10 pr-4 py-3 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
