@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: -0.011em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #191918;
+  }
+
+  body {
+    background-color: #191918;
+    color: #f0eee9;
+    font-size: 18px;
+    line-height: 1.65;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.22);
+  }
+}
+
+.font-editorial,
+.font-claude {
+  font-family: 'Newsreader', 'Georgia', 'Iowan Old Style', serif;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  letter-spacing: -0.005em;
+  color: #ebe9e4;
+}
+
+@layer utilities {
+  .pressable {
+    transition: transform 140ms var(--ease-out), opacity 140ms var(--ease-out), background-color 140ms var(--ease-out), border-color 140ms var(--ease-out);
+    will-change: transform;
+  }
+  .pressable:active {
+    transform: scale(0.975);
+  }
+
+  .pressable-subtle {
+    transition: transform 140ms var(--ease-out), opacity 140ms var(--ease-out), background-color 140ms var(--ease-out), border-color 140ms var(--ease-out);
+    will-change: transform;
+  }
+  .pressable-subtle:active {
+    transform: scale(0.985);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.98) translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-fade-in,
+.animate-claude {
+  animation: fadeInScale 200ms var(--ease-out) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pressable,
+  .pressable-subtle,
+  .animate-fade-in,
+  .animate-claude {
+    animation: none !important;
+    transition: opacity 120ms ease !important;
+    transform: none !important;
+  }
+}
