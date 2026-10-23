@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "username": "tony_sharma",
+      "password": "tony123",
+      "role": "c_level",
+      "name": "Tony Sharma",
+      "title": "Chief Innovation Officer",
+      "department": "Executive"
+    },
+    {
+      "username": "sarah_finance",
+      "password": "finance123",
+      "role": "finance",
+      "name": "Sarah Chen",
+      "title": "Chief Financial Officer",
+      "department": "Finance"
+    },
+    {
+      "username": "mike_marketing",
+      "password": "market123",
+      "role": "marketing",
+      "name": "Mike Johnson",
+      "title": "Marketing Director",
+      "department": "Marketing"
+    },
+    {
+      "username": "lisa_hr",
+      "password": "hr123",
+      "role": "hr",
+      "name": "Lisa Patel",
+      "title": "HR Manager",
+      "department": "Human Resources"
+    },
+    {
+      "username": "dev_peter",
+      "password": "eng123",
+      "role": "engineering",
+      "name": "Peter Pandey",
+      "title": "AI Engineer",
+      "department": "Engineering"
+    },
+    {
+      "username": "emp_john",
+      "password": "emp123",
+      "role": "employee",
+      "name": "John Smith",
+      "title": "Business Associate",
+      "department": "Operations"
+    }
+  ]
+}
