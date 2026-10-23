@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "faithfulness": 0.777,
+    "answer_relevancy": 0.93,
+    "context_precision": 0.838,
+    "overall_score": 0.848,
+    "test_cases": 10
+  },
+  "details": [
+    {
+      "question": "What is the Q3 2024 revenue?",
+      "role": "finance",
+      "answer_preview": "- **Q3 2024 Revenue:** **$2.4 billion**  \n\n**Source:** quarterly_financial_report.md (Source 5)...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.875,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.95
+    },
+    {
+      "question": "What are the main quarterly expense categories in 2024?",
+      "role": "finance",
+      "answer_preview": "**Main expense categories reported for 2024 (quarterly focus)**  \n\n- **Vendor Services** – the large...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.851,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.894
+    },
+    {
+      "question": "What is the gross margin for Q2 2024?",
+      "role": "finance",
+      "answer_preview": "The gross margin for Q2 2024 is **60%**.  \n\n**Source:** quarterly_financial_report.md...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.828,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.89
+    },
+    {
+      "question": "How many total employee records are in the HR dataset?",
+      "role": "hr",
+      "answer_preview": "The HR dataset contains **100 employee records**.\n\n**Source:** hr_data.csv (Source 1)...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.787,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.757
+    },
+    {
+      "question": "What is the role and department of employee FINEMP1000?",
+      "role": "hr",
+      "answer_preview": "I did not find information on this subject in the accessible data for your role.  \n\n**Source:** empl...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.839,
+      "answer_relevancy": 0.593,
+      "context_precision": 0.545
+    },
+    {
+      "question": "What was the projected ROI for Q4 2024 marketing campaigns?",
+      "role": "marketing",
+      "answer_preview": "- Projected ROI for the Q4 2024 marketing campaigns: **4.4 ×**.  \n\n**Source:** market_report_q4_2024...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.747,
+      "answer_relevancy": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "question": "What was the customer acquisition target for Q4 2024?",
+      "role": "marketing",
+      "answer_preview": "- **Customer Acquisition Target for Q4 2024:** 220,000 new customers  \n\n**Source:** market_report_q4...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.981,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.999
+    },
+    {
+      "question": "What are the core capabilities and mission of FinSolve Technologies?",
+      "role": "engineering",
+      "answer_preview": "**Core capabilities**\n- Digital banking  \n- Payment processing  \n- Wealth management  \n- Enterprise ...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.444,
+      "answer_relevancy": 0.775,
+      "context_precision": 0.968
+    },
+    {
+      "question": "What is the annual leave allowance at FinSolve?",
+      "role": "employee",
+      "answer_preview": "- **Annual (Privilege) Leave:** 15 – 21 days per year, accrued monthly (as per the state Shops & Est...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.878,
+      "answer_relevancy": 0.928,
+      "context_precision": 0.689
+    },
+    {
+      "question": "How should an employee submit an expense reimbursement request?",
+      "role": "employee",
+      "answer_preview": "**How to submit an expense reimbursement request**\n\n1. **Gather required documents**  \n   - Original...",
+      "contexts_retrieved": 5,
+      "faithfulness": 0.539,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.692
+    }
+  ]
+}
