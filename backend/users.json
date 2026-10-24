@@ -1,51 +1,51 @@
 {
   "users": [
     {
-      "username": "famakan_sharma",
-      "password": "tony123",
+      "username": "famakan_clevel",
+      "password": "famakan_clevel123",
       "role": "c_level",
-      "name": "Famakan Sharma",
+      "name": "Famakan Executive",
       "title": "Chief Innovation Officer",
       "department": "Executive"
     },
     {
-      "username": "famakan_chen",
-      "password": "finance123",
+      "username": "famakan_finance",
+      "password": "famakan_finance123",
       "role": "finance",
-      "name": "Famakan Chen",
+      "name": "Famakan Finance",
       "title": "Chief Financial Officer",
       "department": "Finance"
     },
     {
-      "username": "famakan_johnson",
-      "password": "market123",
+      "username": "famakan_marketing",
+      "password": "famakan_marketing123",
       "role": "marketing",
-      "name": "Famakan Johnson",
+      "name": "Famakan Marketing",
       "title": "Marketing Director",
       "department": "Marketing"
     },
     {
-      "username": "famakan_patel",
-      "password": "hr123",
+      "username": "famakan_hr",
+      "password": "famakan_hr123",
       "role": "hr",
-      "name": "Famakan Patel",
+      "name": "Famakan HR",
       "title": "HR Manager",
       "department": "Human Resources"
     },
     {
-      "username": "famakan_pandey",
-      "password": "eng123",
+      "username": "famakan_engineering",
+      "password": "famakan_engineering123",
       "role": "engineering",
-      "name": "Famakan Pandey",
-      "title": "AI Engineer",
+      "name": "Famakan Engineering",
+      "title": "Lead AI Engineer",
       "department": "Engineering"
     },
     {
-      "username": "famakan_smith",
-      "password": "emp123",
+      "username": "famakan_employee",
+      "password": "famakan_employee123",
       "role": "employee",
-      "name": "Famakan Smith",
-      "title": "Business Associate",
+      "name": "Famakan Operations",
+      "title": "Operations Associate",
       "department": "Operations"
     }
   ]

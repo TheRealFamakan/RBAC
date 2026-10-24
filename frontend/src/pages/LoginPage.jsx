@@ -13,12 +13,12 @@ import {
 import { ROLE_CONFIG } from '../constants/roles';
 
 const DEMO_ACCOUNTS = [
-  { username: 'famakan_sharma',  password: 'tony123',    role: 'c_level',     name: 'Famakan Sharma',  title: 'Chief Innovation Officer' },
-  { username: 'famakan_chen',    password: 'finance123', role: 'finance',     name: 'Famakan Chen',    title: 'Chief Financial Officer' },
-  { username: 'famakan_johnson', password: 'market123',  role: 'marketing',   name: 'Famakan Johnson', title: 'Marketing Director' },
-  { username: 'famakan_patel',   password: 'hr123',      role: 'hr',          name: 'Famakan Patel',   title: 'HR Manager' },
-  { username: 'famakan_pandey',  password: 'eng123',     role: 'engineering', name: 'Famakan Pandey',  title: 'Lead AI Engineer' },
-  { username: 'famakan_smith',   password: 'emp123',     role: 'employee',    name: 'Famakan Smith',   title: 'Operations Associate' },
+  { username: 'famakan_clevel',      password: 'famakan_clevel123',  role: 'c_level',     name: 'Famakan Executive',  title: 'Chief Innovation Officer' },
+  { username: 'famakan_finance',     password: 'famakan_finance123', role: 'finance',     name: 'Famakan Finance',    title: 'Chief Financial Officer' },
+  { username: 'famakan_marketing',   password: 'famakan_marketing123', role: 'marketing', name: 'Famakan Marketing',  title: 'Marketing Director' },
+  { username: 'famakan_hr',          password: 'famakan_hr123',      role: 'hr',          name: 'Famakan HR',         title: 'HR Manager' },
+  { username: 'famakan_engineering', password: 'famakan_engineering123', role: 'engineering', name: 'Famakan Engineering', title: 'Lead AI Engineer' },
+  { username: 'famakan_employee',    password: 'famakan_employee123',    role: 'employee',    name: 'Famakan Operations', title: 'Operations Associate' },
 ];
 
 export default function LoginPage() {
@@ -179,7 +179,7 @@ export default function LoginPage() {
                     type="text"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
-                    placeholder="e.g. famakan_sharma"
+                    placeholder="e.g. famakan_clevel"
                     autoComplete="username"
                     disabled={loading}
                     className="w-full bg-slate-950/70 border border-slate-800 rounded-xl pl-10 pr-4 py-3 text-sm text-white placeholder:text-slate-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"

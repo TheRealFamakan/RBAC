@@ -23,12 +23,12 @@ An enterprise internal AI assistant designed to allow employees to access only t
 
 | Role | Accessible Data | Demo Account |
 |------|-----------------|--------------|
-| C-Level | Cross-departmental (All data) | `famakan_sharma / tony123` |
-| Finance | Quarterly financial reports, margins, budgets | `famakan_chen / finance123` |
-| Marketing | Campaign ROI, acquisition targets, marketing spend | `famakan_johnson / market123` |
-| HR | Employee records, payroll, retention metrics | `famakan_patel / hr123` |
-| Engineering | Microservices, architecture, CI/CD, PCI-DSS compliance | `famakan_pandey / eng123` |
-| Employee | General policies, onboarding, employee handbook | `famakan_smith / emp123` |
+| C-Level | Cross-departmental (All data) | `famakan_clevel / famakan_clevel123` |
+| Finance | Quarterly financial reports, margins, budgets | `famakan_finance / famakan_finance123` |
+| Marketing | Campaign ROI, acquisition targets, marketing spend | `famakan_marketing / famakan_marketing123` |
+| HR | Employee records, payroll, retention metrics | `famakan_hr / famakan_hr123` |
+| Engineering | Microservices, architecture, CI/CD, PCI-DSS compliance | `famakan_engineering / famakan_engineering123` |
+| Employee | General policies, onboarding, employee handbook | `famakan_employee / famakan_employee123` |
 
 ---
 
